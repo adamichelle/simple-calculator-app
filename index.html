@@ -8,7 +8,46 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <main>
+        <div class="calculator">
+            <div class="calculator-display">
+                <div class="calculator-display--operation">0 + 0</div>
+                <div class="calculator-display--result">0</div>
+            </div>
+            <div class="calculator-buttons">
+                <div class="calculator-buttons--row">
+                    <button class="calculator-buttons--button" data-action="clear-all">C</button>
+                    <button class="calculator-buttons--button" data-action="clear-entry">CE</button>
+                    <button class="calculator-buttons--button" data-action="modulo">%</button>
+                    <button class="calculator-buttons--button" data-action="divide">÷</button>
+                </div>
+                <div class="calculator-buttons--row">
+                    <button class="calculator-buttons--button">7</button>
+                    <button class="calculator-buttons--button">8</button>
+                    <button class="calculator-buttons--button">9</button>
+                    <button class="calculator-buttons--button" data-action="multiply">&times;</button>
+                </div>
+                <div class="calculator-buttons--row">
+                    <button class="calculator-buttons--button">4</button>
+                    <button class="calculator-buttons--button">5</button>
+                    <button class="calculator-buttons--button">6</button>
+                    <button class="calculator-buttons--button" data-action="subtract">-</button>
+                </div>
+                <div class="calculator-buttons--row">
+                    <button class="calculator-buttons--button">1</button>
+                    <button class="calculator-buttons--button">2</button>
+                    <button class="calculator-buttons--button">3</button>
+                    <button class="calculator-buttons--button" data-action="add">+</button>
+                </div>
+                <div class="calculator-buttons--row">
+                    <button class="calculator-buttons--button">0</button>
+                    <button class="calculator-buttons--button">.</button>
+                    <button class="calculator-buttons--button">√</button>
+                    <button class="calculator-buttons--button" data-action="calculate">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="main.js" />
 </body>
 </html>
