@@ -1,6 +1,7 @@
 # Simple Calculator App
 A calculator app that can perform basic arithmetic operations like addition, subtraction, multiplication and division.
 It also clears current entry as well as all entries from the calculator.
+App deployed on Github Pages here: [Simple Calculator App](https://adamichelle.github.io/simple-calculator-app)
 ## Stack:
 - HTML
 - CSS
